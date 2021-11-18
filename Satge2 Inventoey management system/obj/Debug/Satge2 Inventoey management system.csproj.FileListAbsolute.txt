@@ -1,0 +1,62 @@
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\bin\Debug\Satge2 Inventoey management system.exe.config
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\bin\Debug\Satge2 Inventoey management system.exe
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\bin\Debug\Satge2 Inventoey management system.pdb
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.csprojAssemblyReference.cache
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Properties.Resources.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.csproj.GenerateResource.cache
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.csproj.CoreCompileInputs.cache
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.exe
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.pdb
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.sign_in.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2 Inventoey management system.csproj.CopyComplete
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\bin\Debug\Guna.UI2.dll
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.stocklevel.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.customer.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.customer3.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.User.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.User1.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Categoryhome.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.LaptopBrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.CreateAccount.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Product3.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Category.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Category3.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Form1.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Form2.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Acer.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Apple.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.MSI.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Mobile_Apple.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Mobilebrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.MobileSamsung.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.MobileGoogle.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.keyboardBrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.logitech.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Razer.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Microsoft.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.BOSE.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.speakersbrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Yamaha.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Sony.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.LogitechMouse.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Mousebrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Roccat.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Razermouse.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.AcerMonitor.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.AppleMonitor.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.HpMonitor.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.MonitorBrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.AppleIpad.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.GoogleIpad.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.IpadBrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.SamsungIpad.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.PcBrand.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.ApplePc.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.HpPc.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.AdmoinistraterPage.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.CustomerHomepage.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.YourOrders.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.stocklevel1.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.Product4.resources
+C:\Users\navee\source\repos\Satge2 Inventoey management system\Satge2 Inventoey management system\obj\Debug\Satge2_Inventoey_management_system.NewCustomers.resources

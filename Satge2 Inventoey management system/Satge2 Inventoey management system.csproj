@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2D467F6-2CE9-4DD7-AB0D-ED48AB35473F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Satge2_Inventoey_management_system</RootNamespace>
+    <AssemblyName>Satge2 Inventoey management system</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acer.Designer.cs">
+      <DependentUpon>Acer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcerMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcerMonitor.Designer.cs">
+      <DependentUpon>AcerMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdmoinistraterPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmoinistraterPage.Designer.cs">
+      <DependentUpon>AdmoinistraterPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apple.Designer.cs">
+      <DependentUpon>Apple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppleIpad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppleIpad.Designer.cs">
+      <DependentUpon>AppleIpad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppleMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppleMonitor.Designer.cs">
+      <DependentUpon>AppleMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplePc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplePc.Designer.cs">
+      <DependentUpon>ApplePc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BOSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BOSE.Designer.cs">
+      <DependentUpon>BOSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categoryhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoryhome.Designer.cs">
+      <DependentUpon>Categoryhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer3.Designer.cs">
+      <DependentUpon>customer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerHomepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerHomepage.Designer.cs">
+      <DependentUpon>CustomerHomepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleIpad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleIpad.Designer.cs">
+      <DependentUpon>GoogleIpad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HpMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HpMonitor.Designer.cs">
+      <DependentUpon>HpMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HpPc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HpPc.Designer.cs">
+      <DependentUpon>HpPc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IpadBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IpadBrand.Designer.cs">
+      <DependentUpon>IpadBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyboardBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyboardBrand.Designer.cs">
+      <DependentUpon>keyboardBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logitech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logitech.Designer.cs">
+      <DependentUpon>logitech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogitechMouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogitechMouse.Designer.cs">
+      <DependentUpon>LogitechMouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Microsoft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Microsoft.Designer.cs">
+      <DependentUpon>Microsoft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile Apple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mobile Apple.Designer.cs">
+      <DependentUpon>Mobile Apple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mobilebrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mobilebrand.Designer.cs">
+      <DependentUpon>Mobilebrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileGoogle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MobileGoogle.Designer.cs">
+      <DependentUpon>MobileGoogle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileSamsung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MobileSamsung.Designer.cs">
+      <DependentUpon>MobileSamsung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorBrand.Designer.cs">
+      <DependentUpon>MonitorBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mousebrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mousebrand.Designer.cs">
+      <DependentUpon>Mousebrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSI.Designer.cs">
+      <DependentUpon>MSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCustomers.Designer.cs">
+      <DependentUpon>NewCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newinventory.cs" />
+    <Compile Include="PcBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PcBrand.Designer.cs">
+      <DependentUpon>PcBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product3.Designer.cs">
+      <DependentUpon>Product3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Category3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category3.Designer.cs">
+      <DependentUpon>Category3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaptopBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaptopBrand.Designer.cs">
+      <DependentUpon>LaptopBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product4.Designer.cs">
+      <DependentUpon>Product4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Razer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Razer.Designer.cs">
+      <DependentUpon>Razer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Razermouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Razermouse.Designer.cs">
+      <DependentUpon>Razermouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roccat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roccat.Designer.cs">
+      <DependentUpon>Roccat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungIpad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SamsungIpad.Designer.cs">
+      <DependentUpon>SamsungIpad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sign-in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sign-in.Designer.cs">
+      <DependentUpon>sign-in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sony.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sony.Designer.cs">
+      <DependentUpon>Sony.cs</DependentUpon>
+    </Compile>
+    <Compile Include="speakersbrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="speakersbrand.Designer.cs">
+      <DependentUpon>speakersbrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stocklevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stocklevel.Designer.cs">
+      <DependentUpon>stocklevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stocklevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stocklevel1.Designer.cs">
+      <DependentUpon>stocklevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User1.Designer.cs">
+      <DependentUpon>User1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yamaha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yamaha.Designer.cs">
+      <DependentUpon>Yamaha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YourOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YourOrders.Designer.cs">
+      <DependentUpon>YourOrders.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acer.resx">
+      <DependentUpon>Acer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcerMonitor.resx">
+      <DependentUpon>AcerMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmoinistraterPage.resx">
+      <DependentUpon>AdmoinistraterPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apple.resx">
+      <DependentUpon>Apple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppleIpad.resx">
+      <DependentUpon>AppleIpad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppleMonitor.resx">
+      <DependentUpon>AppleMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplePc.resx">
+      <DependentUpon>ApplePc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BOSE.resx">
+      <DependentUpon>BOSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categoryhome.resx">
+      <DependentUpon>Categoryhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer3.resx">
+      <DependentUpon>customer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerHomepage.resx">
+      <DependentUpon>CustomerHomepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoogleIpad.resx">
+      <DependentUpon>GoogleIpad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HpMonitor.resx">
+      <DependentUpon>HpMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HpPc.resx">
+      <DependentUpon>HpPc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IpadBrand.resx">
+      <DependentUpon>IpadBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyboardBrand.resx">
+      <DependentUpon>keyboardBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logitech.resx">
+      <DependentUpon>logitech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogitechMouse.resx">
+      <DependentUpon>LogitechMouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft.resx">
+      <DependentUpon>Microsoft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mobile Apple.resx">
+      <DependentUpon>Mobile Apple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mobilebrand.resx">
+      <DependentUpon>Mobilebrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobileGoogle.resx">
+      <DependentUpon>MobileGoogle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobileSamsung.resx">
+      <DependentUpon>MobileSamsung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorBrand.resx">
+      <DependentUpon>MonitorBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mousebrand.resx">
+      <DependentUpon>Mousebrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSI.resx">
+      <DependentUpon>MSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCustomers.resx">
+      <DependentUpon>NewCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PcBrand.resx">
+      <DependentUpon>PcBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product3.resx">
+      <DependentUpon>Product3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Category3.resx">
+      <DependentUpon>Category3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaptopBrand.resx">
+      <DependentUpon>LaptopBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product4.resx">
+      <DependentUpon>Product4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Razer.resx">
+      <DependentUpon>Razer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Razermouse.resx">
+      <DependentUpon>Razermouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roccat.resx">
+      <DependentUpon>Roccat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SamsungIpad.resx">
+      <DependentUpon>SamsungIpad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sign-in.resx">
+      <DependentUpon>sign-in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sony.resx">
+      <DependentUpon>Sony.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="speakersbrand.resx">
+      <DependentUpon>speakersbrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stocklevel.resx">
+      <DependentUpon>stocklevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stocklevel1.resx">
+      <DependentUpon>stocklevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User1.resx">
+      <DependentUpon>User1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yamaha.resx">
+      <DependentUpon>Yamaha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YourOrders.resx">
+      <DependentUpon>YourOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\threenetsuite-1024x213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amazon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amazon-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192-1929028_back-arrow-icon-android.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b19c4f51099a4db9fc3f1ea5a39189aa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rbea5fd915d233da71462efd6b1a99447.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keyboard-icon_Wikipedians.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-laptop-computer-icons-computer-monitors-desktop-co-laptop-png-vector-5ab116381c1544.5743363715215550001151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64836545_Subscription_S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\331b9a6a-21e7-4c99-a5b8-938bf9fef9b6_1.4a6b5a5eafdbf0839268c3af7941cab9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vvb3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\920-009418-logitech-mx-keys-wireless-keyboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c05920651_1750x1285.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_7_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kef_x300a_2_way_bass_powered_digital_1050951.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8CkA7JrnvgjnmMhxqSsLYo-1200-80.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\202011AM140000001_16053171089898800052412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\202011AM140000001_160531710898988000524121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brand_hp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNGPIX-COM-Apple-Logo-PNG-Transparent.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple-Logo-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msi-logo-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rb52021ecb7c995ef6a69e3503ffcdf32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logitech-logo-Ciano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\razer-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logitech-logo-Ciano1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\razer-logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1280px-Bose_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bose-1-logo-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2922ad3dfa2b07f311d5f4381456c135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bose-1-logo-png-transparent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2922ad3dfa2b07f311d5f4381456c1351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2922ad3dfa2b07f311d5f4381456c1352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roccat-logo-24756-1920x1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roccat-logo-24756-1920x12001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\razer-logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
